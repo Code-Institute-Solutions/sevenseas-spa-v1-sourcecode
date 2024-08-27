@@ -9,103 +9,13 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
     <title>Seven Seas Spa</title>
-    <style>
-        /* Apply the Handlee font to all headings */
-        h1, h2, h3, h4, h5, h6 {
-            font-family: 'Handlee', cursive;
-        }
-    
-        .navbar-custom {
-            color: #3B2F2F;
-        }
-    
-        .navbar-custom .nav-link {
-            color: #3B2F2F;
-        }
-    
-        .navbar-custom .nav-link.active {
-            font-weight: bold;
-        }
-    
-        /* Make the navbar sticky */
-        .navbar {
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-    
-        /* Style the hero section */
-        .hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/images/hero.png');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            color: #FFEBD4;
-            padding: 8rem 0;
-        }
-    
-        body {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-    
-        /* Style the footer */
-        .footer {
-            margin-top: auto;
-            background-color: #6F4E37;
-            color: #FFEBD4;
-        }
-    
-        .footer i.bi {
-            color: #FFEBD4;
-        }
-    
-        /* Add padding to the navbar brand and nav links */
-        .navbar-brand {
-            padding-left: 1rem;
-        }
-    
-        .navbar-nav {
-            padding-right: 1rem;
-        }
-    
-        /* Highlight the active nav link */
-        .nav-item.active .nav-link {
-            color: #000000;
-            /* Change to the color you want */
-            font-weight: bolder;
-            /* Makes the text bold */
-        }
-    
-        /* Style the service cards */
-        .card {
-            border: none;
-        }
-    
-        .card-img-top {
-            height: 200px;
-            object-fit: cover;
-        }
-    
-        /* Set the size of the testimonial images */
-        .testimonial-image {
-            width: 100px;
-            height: 100px;
-        }
-    
-        /* Applies rounded corners to images with the 'rounded-image' class. Adjust the border-radius value to control the roundness. */
-        .rounded-image {
-            border-radius: 15px;
-            /* Adjust the px value as needed */
-        }
-    </style>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white navbar-custom">
-        <div class="container">
+        <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="assets/images/logo.png" alt="Logo" width="30" height="30">
                 Seven Seas Spa
@@ -215,7 +125,7 @@
                     <li><strong>Stay Hydrated:</strong> Drinking enough water can improve your energy levels and brain
                         function.</li>
                 </ul>
-            
+            </section>
             <!-- Testimonial Section -->
             <section class="my-5">
                 <h2 class="display-5">Testimonials</h2>
