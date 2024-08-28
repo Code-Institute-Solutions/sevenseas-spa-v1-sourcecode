@@ -63,15 +63,6 @@ body {
     padding-top: 2rem;
 }
 
-/* Add padding to the navbar brand and nav links */
-.navbar-brand {
-    padding-left: 1rem;
-}
-
-.navbar-nav {
-    padding-right: 1rem;
-}
-
 /* Highlight the active nav link */
 .nav-item.active .nav-link {
     color: #000000; /* Change to the color you want */

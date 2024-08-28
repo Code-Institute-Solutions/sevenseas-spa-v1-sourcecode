@@ -1,10 +1,5 @@
 /* Apply the Handlee font to all headings */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Handlee', cursive;
 }
 
@@ -52,15 +47,6 @@ body {
 
 .footer i.bi {
     color: #FFEBD4;
-}
-
-/* Add padding to the navbar brand and nav links */
-.navbar-brand {
-    padding-left: 1rem;
-}
-
-.navbar-nav {
-    padding-right: 1rem;
 }
 
 /* Highlight the active nav link */
