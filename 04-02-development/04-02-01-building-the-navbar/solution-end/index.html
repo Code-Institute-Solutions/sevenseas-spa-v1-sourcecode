@@ -21,19 +21,10 @@
             font-weight: bold;
         }
 
-        .hero-section {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/hero.png') no-repeat center center;
-            background-size: cover;
-            color: #FFEBD4;
-            padding: 100px 0;
-        }
-
-        .hero-section h1 {
-            font-family: 'Handlee', cursive;
-        }
-
-        .btn {
-            color: #3B2F2F;
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
         }
     </style>
 </head>
@@ -68,12 +59,6 @@
             </div>
         </div>
     </nav>
-
-    <div class="container-fluid hero-section text-center">
-        <h1 class="display-4">Welcome to Seven Seas Spa</h1>
-        <p class="lead">We are dedicated to improving your overall wellbeing.</p>
-        <a href="#" class="btn btn-light btn-lg">Contact Us</a>
-    </div>
 
     <script src="https://fonts.googleapis.com/css2?family=Handle&display=swap"></script>
 
