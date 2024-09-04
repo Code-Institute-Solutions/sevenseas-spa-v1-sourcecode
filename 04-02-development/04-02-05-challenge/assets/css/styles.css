@@ -31,13 +31,6 @@ h1, h2, h3, h4, h5, h6 {
     padding: 8rem 0;
 }
 
-/* 
-This CSS rule adds padding to the left and right of the body and main elements. 
-This ensures that the content is not right up against the viewport on small screens.
-*/
-main {
-    margin: 2rem 0;
-}
 
 /* Make the body a flex container and ensure it takes up at least the full height of the viewport */
 body {
@@ -57,10 +50,6 @@ body {
     color: #FFEBD4; /* Almond */
 }
 
-/* Add padding to the top of the first container */
-.container:first-of-type {
-    padding-top: 2rem;
-}
 
 /* Highlight the active nav link */
 .nav-item.active .nav-link {
