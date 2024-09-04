@@ -58,10 +58,12 @@ body {
 }
 
 /* Highlight the active nav link */
-.nav-item.active .nav-link {
+.nav-link.active {
     color: #000000; /* Change to the color you want */
     font-weight: bolder; /* Makes the text bold */
 }
+
+
 
 /* Style the service cards */
 .card {
