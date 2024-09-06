@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #FFEBD4; /* Almond */
+    color: #FFEBD4; 
     padding: 8rem 0;
 }
 
@@ -39,7 +39,6 @@ main {
     margin: 2rem 0;
 }
 
-/* Make the body a flex container and ensure it takes up at least the full height of the viewport */
 body {
     display: flex;
     flex-direction: column;
@@ -49,18 +48,18 @@ body {
 /* Style the footer */
 .footer {
     margin-top: auto;
-    background-color: #6F4E37; /* Coffee */
-    color: #FFEBD4; /* Almond */
+    background-color: #6F4E37; 
+    color: #FFEBD4; 
 }
 
 .footer i.bi {
-    color: #FFEBD4; /* Almond */
+    color: #FFEBD4; 
 }
 
 /* Highlight the active nav link */
 .nav-item.active .nav-link {
-    color: #000000; /* Change to the color you want */
-    font-weight: bolder; /* Makes the text bold */
+    color: #000000; 
+    font-weight: bolder; 
 }
 
 /* Style the service cards */
