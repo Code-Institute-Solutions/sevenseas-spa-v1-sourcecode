@@ -38,6 +38,14 @@ body {
     min-height: 100vh;
 }
 
+/* 
+This CSS rule adds padding to the left and right of the body and main elements. 
+This ensures that the content is not right up against the viewport on small screens.
+*/
+main {
+    margin: 2rem 0;
+}
+
 /* Style the footer */
 .footer {
     margin-top: auto;
