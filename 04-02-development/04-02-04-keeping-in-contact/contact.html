@@ -14,20 +14,20 @@
 
 <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white navbar-custom">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="assets/images/logo.png" alt="Seven Seas Spa Logo" width="30" height="30" class="d-inline-block align-top">
+                <img src="assets/images/logo.png" alt="Logo" width="30" height="30">
                 Seven Seas Spa
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">About</a>
@@ -35,7 +35,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Services</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link active" href="contact.html">Contact</a>
                     </li>
                 </ul>
@@ -44,48 +44,43 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero">
-        <div class="container text-center">
+    <header class="hero text-center" id="mainContent">
+        <div class="container">
             <h1 class="display-4">Get in Touch</h1>
-            <p class="lead">We'd love to hear from you</p>
+            <p class="lead">We'd love to hear from you.</p>
         </div>
-    </section>
+    </header>
 
     <!-- Main Section -->
-    <main class="my-5">
+    <main class="container my-5">
         <div class="container">
-            <!-- Contact Form -->
-            <section class="my-5 d-flex justify-content-center contact-section">
-                <div class="col-lg-6">
-                    <div class="border p-3 rounded shadow bg-white">
-                        <h2 class="display-5">Contact Us</h2>
-                        <p class="lead">We're here to help and answer any question you might have. We look forward to hearing from you 🙂</p>
-                        <form action="thankyou.html">
-                            <fieldset>
-                                <legend class="visually-hidden">Contact form</legend>
-                                <div class="form-group">
-                                    <label for="name">Name</label>
-                                    <input type="text" class="form-control" id="name" placeholder="Your Full Name" required aria-describedby="nameHelp">
-                                    <small id="nameHelp" class="form-text text-muted">Please enter your full name.</small>
-                                </div>
-                                <div class="form-group">
-                                    <label for="email">Email address</label>
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email Address" required aria-describedby="emailHelp">
-                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                                </div>
-                                <div class="form-group">
-                                    <label for="message">Message</label>
-                                    <textarea class="form-control" id="message" rows="3" placeholder="Your Message Here" required aria-describedby="messageHelp"></textarea>
-                                    <small id="messageHelp" class="form-text text-muted">Enter your message or inquiry.</small>
-                                </div>
-                                <button type="submit" class="btn btn-primary" aria-label="Submit contact form">Submit</button>
-                            </fieldset>
-                        </form>
+            <div class="card shadow p-4">
+                <h2 class="card-title text-center mb-4">Contact Us</h2>
+                <p class="lead">We're here to help and answer any question you might have. We look forward to hearing from you</p>
+                <form action="thankyou.html">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
                     </div>
-                </div>
-            </section>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </div>
+                </form>
             </div>
-        </main>
+        </div>
+    </main>
 
     <!-- Footer -->
     <footer class="footer text-center text-lg-start py-3 mt-auto">
@@ -95,16 +90,21 @@
                     <p>© 2022 Seven Seas Spa</p>
                 </div>
                 <div class="col-md-6 text-md-end">
-                    <a href="https://www.facebook.com/Code.InstituteIRL/" target="_blank" rel="noopener noreferrer" aria-label="Visit our Facebook page" class="me-2"><i class="bi bi-facebook"></i></a>
-                    <a href="https://x.com/codeinstitute" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Twitter" class="me-2"><i class="bi bi-twitter"></i></a>
-                    <a href="https://www.instagram.com/codeinstitute/" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram" class="me-2"><i class="bi bi-instagram"></i></a>
-                    <a href="https://www.linkedin.com/school/code-institute/" target="_blank" rel="noopener noreferrer" aria-label="Connect with us on LinkedIn" class="me-2"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://www.facebook.com/Code.InstituteIRL/" target="_blank" rel="noopener noreferrer"
+                        aria-label="Visit our Facebook page" class="me-2"><i class="bi bi-facebook"></i></a>
+                    <a href="https://x.com/codeinstitute" target="_blank" rel="noopener noreferrer"
+                        aria-label="Follow us on Twitter" class="me-2"><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.instagram.com/codeinstitute/" target="_blank" rel="noopener noreferrer"
+                        aria-label="Follow us on Instagram" class="me-2"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.linkedin.com/school/code-institute/" target="_blank" rel="noopener noreferrer"
+                        aria-label="Connect with us on LinkedIn" class="me-2"><i class="bi bi-linkedin"></i></a>
                 </div>
             </div>
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
 </body>
 
 </html>
